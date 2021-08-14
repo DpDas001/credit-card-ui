@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should rendered Main should render my Main 1`] = `
+Array [
+  <div
+    className="App"
+  >
+    <div
+      className="content-wrapper"
+    >
+      <PageHeader
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid rgb(235, 237, 240)",
+            "marginBottom": "30px",
+          }
+        }
+        title="Credit Card System"
+      />
+      <FormComponent
+        setTableData={[Function]}
+      />
+      <Table
+        bordered={true}
+        columns={
+          Array [
+            Object {
+              "align": "center",
+              "dataIndex": "name",
+              "title": "Name",
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "creditCardNumber",
+              "title": "Card Number",
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "balance",
+              "render": [Function],
+              "title": "Balance",
+            },
+            Object {
+              "align": "center",
+              "dataIndex": "limit",
+              "title": "Limit",
+            },
+          ]
+        }
+        dataSource={Array []}
+        rowKey="key"
+        size="small"
+        tableLayout="auto"
+      />
+    </div>
+  </div>,
+]
+`;
